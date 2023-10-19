@@ -26,12 +26,7 @@ body {
     transition: background-color 1s;
 }
 
-.square:nth-child(10):hover {
-    background-color: lightblue;
-    transition: background-color 1s;
-}
-
-.square:nth-child(44):hover {
-    background-color: aqua;
+.square:after{
+    background-color: #1d1d1d;
     transition: background-color 1s;
 }
